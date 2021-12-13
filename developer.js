@@ -196,11 +196,11 @@ const deves = [
 
 let data3 = JSON.stringify(deves) ;
 
-// console.log(data3);
+console.log(data3);
 
-// let data4 = JSON.parse(data3);
+let data4 = JSON.parse(data3);
 
-// console.log(data4);
+console.log(data4);
 
 
 localStorage.setItem('developers data' , data3);
